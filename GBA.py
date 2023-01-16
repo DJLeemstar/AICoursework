@@ -5,7 +5,6 @@ from numpy import mean
 from numpy import std
 import seaborn as sns
 import matplotlib.pyplot as plt
-import xgboost as xgb
 from sklearn import model_selection
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
