@@ -139,18 +139,16 @@ plt.show()
 visualizer = ROCAUC(GBA, classes=["malignant", "benign"], binary = True)
 visualizer.fit(X_train, Y_train)
 visualizer.score(X_test, Y_test)
-visualizer.show()
 
 visualizer2 = ROCAUC(SVM, classes=["malignant", "benign"], binary = True)
 visualizer2.fit(X_train, Y_train)
 visualizer2.score(X_test, Y_test)
-visualizer2.show()
 
 visualizer3 = ROCAUC(RFM, classes=["malignant", "benign"], binary = True)
 visualizer3.fit(X_train, Y_train)
 visualizer3.score(X_test, Y_test)
     
-visualizer3.show()
+visualizer.show()
 
 
 
